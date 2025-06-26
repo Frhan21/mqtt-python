@@ -9,6 +9,16 @@ This project demonstrates a real-time object detection system that leverages YOL
 *   **MQTT Integration:** Publishes detected object labels, confidence scores, and timestamps to a specified MQTT topic (`sensor/data`).
 *   **Modular Design:** Separates the MQTT client logic into a dedicated module (`mqtt_publish.py`) for better organization.
 
+## Technologies Used
+
+This project is built using the following key technologies:
+
+*   **Python:** [!Python](https://www.python.org/)
+*   **Gradio:** [!Gradio](https://gradio.app/)
+*   **Ultralytics YOLO:** [!Ultralytics YOLO](https://ultralytics.com/)
+*   **MQTT:** [!MQTT](https://mqtt.org/)
+
+
 ## Prerequisites
 
 Before running the application, ensure you have the following installed:
