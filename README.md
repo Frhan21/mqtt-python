@@ -68,7 +68,7 @@ Before running the application, ensure you have the following installed:
 
 ```
 .
-├── gradio_detect_webcam.py  # Main script: Gradio UI, YOLO detection, calls MQTT publishing
+├── gradio_detect_image.py  # Main script: Gradio UI, YOLO detection, calls MQTT publishing
 ├── mqtt_publish.py          # MQTT client setup and functions for publishing data
 ├── model/                   # Directory for storing YOLO models
 │   └── yolo11n.pt           # Pre-trained YOLOv8n nano model
